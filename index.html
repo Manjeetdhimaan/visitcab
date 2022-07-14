@@ -1,0 +1,988 @@
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <title>VisitCab – A Best Cab Service</title>
+    <meta name="robots" content="max-image-preview:large">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//s.w.org">
+    <link rel="alternate" type="application/rss+xml" title="VisitCab » Feed" href="feed/">
+    <link rel="alternate" type="application/rss+xml" title="VisitCab » Comments Feed"
+        href="comments/feed/">
+    <script type="text/javascript">
+        window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "wp-includes\/js\/wp-emoji-release.min.js" } };
+        !function (e, a, t) { var n, r, o, i = a.createElement("canvas"), p = i.getContext && i.getContext("2d"); function s(e, t) { var a = String.fromCharCode; p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0); e = i.toDataURL(); return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL() } function c(e) { var t = a.createElement("script"); t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t) } for (o = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, r = 0; r < o.length; r++)t.supports[o[r]] = function (e) { if (!p || !p.fillText) return !1; switch (p.textBaseline = "top", p.font = "600 32px Arial", e) { case "flag": return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]); case "emoji": return !s([55357, 56424, 8205, 55356, 57212], [55357, 56424, 8203, 55356, 57212]) }return !1 }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]); t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () { t.DOMReady = !0 }, t.supports.everything || (n = function () { t.readyCallback() }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () { "complete" === a.readyState && t.readyCallback() })), (n = t.source || {}).concatemoji ? c(n.concatemoji) : n.wpemoji && n.twemoji && (c(n.twemoji), c(n.wpemoji))) }(window, document, window._wpemojiSettings);
+    </script>
+    <script src="wp-includes/js/wp-emoji-release.min.js" type="text/javascript"
+        defer=""></script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel="stylesheet" id="wp-block-library-css"
+        href="wp-includes/css/dist/block-library/style.min.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="wp-block-library-theme-css"
+        href="wp-includes/css/dist/block-library/theme.min.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="font-awesome-css"
+        href="wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="primer-css" href="wp-content/themes/primer/style.css"
+        type="text/css" media="all">
+    <style id="primer-inline-css" type="text/css">
+        .site-header {
+            background-image: url(wp-content/uploads/2019/12/qtq50-f3USrc.jpeg);
+        }
+
+        .site-title a,
+        .site-title a:visited {
+            color: #ffffff;
+        }
+
+        .site-title a:hover,
+        .site-title a:visited:hover {
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .site-description {
+            color: #ffffff;
+        }
+
+        .hero,
+        .hero .widget h1,
+        .hero .widget h2,
+        .hero .widget h3,
+        .hero .widget h4,
+        .hero .widget h5,
+        .hero .widget h6,
+        .hero .widget p,
+        .hero .widget blockquote,
+        .hero .widget cite,
+        .hero .widget table,
+        .hero .widget ul,
+        .hero .widget ol,
+        .hero .widget li,
+        .hero .widget dd,
+        .hero .widget dt,
+        .hero .widget address,
+        .hero .widget code,
+        .hero .widget pre,
+        .hero .widget .widget-title,
+        .hero .page-header h1 {
+            color: #ffffff;
+        }
+
+        .main-navigation ul li a,
+        .main-navigation ul li a:visited,
+        .main-navigation ul li a:hover,
+        .main-navigation ul li a:focus,
+        .main-navigation ul li a:visited:hover {
+            color: #ffffff;
+        }
+
+        .main-navigation .sub-menu .menu-item-has-children>a::after {
+            border-right-color: #ffffff;
+            border-left-color: #ffffff;
+        }
+
+        .menu-toggle div {
+            background-color: #ffffff;
+        }
+
+        .main-navigation ul li a:hover,
+        .main-navigation ul li a:focus {
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        label,
+        legend,
+        table th,
+        dl dt,
+        .entry-title,
+        .entry-title a,
+        .entry-title a:visited,
+        .widget-title {
+            color: #353535;
+        }
+
+        .entry-title a:hover,
+        .entry-title a:visited:hover,
+        .entry-title a:focus,
+        .entry-title a:visited:focus,
+        .entry-title a:active,
+        .entry-title a:visited:active {
+            color: rgba(53, 53, 53, 0.8);
+        }
+
+        body,
+        input,
+        select,
+        textarea,
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="search"]:focus,
+        input[type="number"]:focus,
+        input[type="tel"]:focus,
+        input[type="range"]:focus,
+        input[type="date"]:focus,
+        input[type="month"]:focus,
+        input[type="week"]:focus,
+        input[type="time"]:focus,
+        input[type="datetime"]:focus,
+        input[type="datetime-local"]:focus,
+        input[type="color"]:focus,
+        textarea:focus,
+        .navigation.pagination .paging-nav-text {
+            color: #252525;
+        }
+
+        hr {
+            background-color: rgba(37, 37, 37, 0.1);
+            border-color: rgba(37, 37, 37, 0.1);
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"],
+        input[type="number"],
+        input[type="tel"],
+        input[type="range"],
+        input[type="date"],
+        input[type="month"],
+        input[type="week"],
+        input[type="time"],
+        input[type="datetime"],
+        input[type="datetime-local"],
+        input[type="color"],
+        textarea,
+        .select2-container .select2-choice {
+            color: rgba(37, 37, 37, 0.5);
+            border-color: rgba(37, 37, 37, 0.1);
+        }
+
+        select,
+        fieldset,
+        blockquote,
+        pre,
+        code,
+        abbr,
+        acronym,
+        .hentry table th,
+        .hentry table td {
+            border-color: rgba(37, 37, 37, 0.1);
+        }
+
+        .hentry table tr:hover td {
+            background-color: rgba(37, 37, 37, 0.05);
+        }
+
+        blockquote,
+        .entry-meta,
+        .entry-footer,
+        .comment-meta .says,
+        .logged-in-as,
+        .wp-block-coblocks-author__heading {
+            color: #686868;
+        }
+
+        .site-footer .widget-title,
+        .site-footer h1,
+        .site-footer h2,
+        .site-footer h3,
+        .site-footer h4,
+        .site-footer h5,
+        .site-footer h6 {
+            color: #353535;
+        }
+
+        .site-footer .widget,
+        .site-footer .widget form label {
+            color: #252525;
+        }
+
+        .footer-menu ul li a,
+        .footer-menu ul li a:visited {
+            color: #686868;
+        }
+
+        .site-info-wrapper .social-menu a {
+            background-color: #686868;
+        }
+
+        .footer-menu ul li a:hover,
+        .footer-menu ul li a:visited:hover {
+            color: rgba(104, 104, 104, 0.8);
+        }
+
+        .site-info-wrapper .site-info-text {
+            color: #686868;
+        }
+
+        a,
+        a:visited,
+        .entry-title a:hover,
+        .entry-title a:visited:hover {
+            color: #ff6663;
+        }
+
+        .navigation.pagination .nav-links .page-numbers.current,
+        .social-menu a:hover {
+            background-color: #ff6663;
+        }
+
+        a:hover,
+        a:visited:hover,
+        a:focus,
+        a:visited:focus,
+        a:active,
+        a:visited:active {
+            color: rgba(255, 102, 99, 0.8);
+        }
+
+        .comment-list li.bypostauthor {
+            border-color: rgba(255, 102, 99, 0.2);
+        }
+
+        button,
+        a.button,
+        a.button:visited,
+        input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        .wp-block-button__link,
+        .site-info-wrapper .social-menu a:hover {
+            background-color: #ff6663;
+            border-color: #ff6663;
+        }
+
+        button:hover,
+        button:active,
+        button:focus,
+        a.button:hover,
+        a.button:active,
+        a.button:focus,
+        a.button:visited:hover,
+        a.button:visited:active,
+        a.button:visited:focus,
+        input[type="button"]:hover,
+        input[type="button"]:active,
+        input[type="button"]:focus,
+        input[type="reset"]:hover,
+        input[type="reset"]:active,
+        input[type="reset"]:focus,
+        input[type="submit"]:hover,
+        input[type="submit"]:active,
+        input[type="submit"]:focus {
+            background-color: rgba(255, 102, 99, 0.8);
+            border-color: rgba(255, 102, 99, 0.8);
+        }
+
+        button,
+        button:hover,
+        button:active,
+        button:focus,
+        a.button,
+        a.button:hover,
+        a.button:active,
+        a.button:focus,
+        a.button:visited,
+        a.button:visited:hover,
+        a.button:visited:active,
+        a.button:visited:focus,
+        input[type="button"],
+        input[type="button"]:hover,
+        input[type="button"]:active,
+        input[type="button"]:focus,
+        input[type="reset"],
+        input[type="reset"]:hover,
+        input[type="reset"]:active,
+        input[type="reset"]:focus,
+        input[type="submit"],
+        input[type="submit"]:hover,
+        input[type="submit"]:active,
+        input[type="submit"]:focus,
+        .wp-block-button__link {
+            color: #ffffff;
+        }
+
+        body {
+            background-color: #f5f5f5;
+        }
+
+        .navigation.pagination .nav-links .page-numbers.current {
+            color: #f5f5f5;
+        }
+
+        .hentry,
+        .comments-area,
+        .widget,
+        #page>.page-title-container {
+            background-color: #ffffff;
+        }
+
+        .site-header {
+            background-color: #0b3954;
+        }
+
+        .site-header {
+            -webkit-box-shadow: inset 0 0 0 9999em;
+            -moz-box-shadow: inset 0 0 0 9999em;
+            box-shadow: inset 0 0 0 9999em;
+            color: rgba(11, 57, 84, 0.50);
+        }
+
+        .main-navigation-container,
+        .main-navigation.open,
+        .main-navigation ul ul,
+        .main-navigation .sub-menu {
+            background-color: #0b3954;
+        }
+
+        .site-footer {
+            background-color: #0b3954;
+        }
+
+        .site-footer .widget {
+            background-color: #ffffff;
+        }
+
+        .site-info-wrapper {
+            background-color: #f5f5f5;
+        }
+
+        .site-info-wrapper .social-menu a,
+        .site-info-wrapper .social-menu a:visited,
+        .site-info-wrapper .social-menu a:hover,
+        .site-info-wrapper .social-menu a:visited:hover {
+            color: #f5f5f5;
+        }
+
+        .has-primary-color {
+            color: #03263B;
+        }
+
+        .has-primary-background-color {
+            background-color: #03263B;
+        }
+
+        .has-secondary-color {
+            color: #0b3954;
+        }
+
+        .has-secondary-background-color {
+            background-color: #0b3954;
+        }
+
+        .has-tertiary-color {
+            color: #bddae6;
+        }
+
+        .has-tertiary-background-color {
+            background-color: #bddae6;
+        }
+
+        .has-quaternary-color {
+            color: #ff6663;
+        }
+
+        .has-quaternary-background-color {
+            background-color: #ff6663;
+        }
+
+        .has-quinary-color {
+            color: #ffffff;
+        }
+
+        .has-quinary-background-color {
+            background-color: #ffffff;
+        }
+    </style>
+    <link rel="stylesheet" id="wpcw-css"
+        href="wp-content/plugins/contact-widgets/assets/css/style.min.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-icons-css"
+        href="wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-animations-css"
+        href="wp-content/plugins/elementor/assets/lib/animations/animations.min.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-frontend-legacy-css"
+        href="wp-content/plugins/elementor/assets/css/frontend-legacy.min.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-frontend-css"
+        href="wp-content/plugins/elementor/assets/css/frontend.min.css" type="text/css"
+        media="all">
+    <style id="elementor-frontend-inline-css" type="text/css">
+        @font-face {
+            font-family: eicons;
+            src: url(wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0);
+            src: url(wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0#iefix) format("embedded-opentype"), url(wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5.10.0) format("woff2"), url(wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff?5.10.0) format("woff"), url(wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?5.10.0) format("truetype"), url(wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg?5.10.0#eicon) format("svg");
+            font-weight: 400;
+            font-style: normal
+        }
+    </style>
+    <link rel="stylesheet" id="elementor-post-418-css"
+        href="wp-content/uploads/elementor/css/post-418.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="elementor-global-css"
+        href="wp-content/uploads/elementor/css/global.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="elementor-post-156-css"
+        href="wp-content/uploads/elementor/css/post-156.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="primer-fonts-css"
+        href="https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C700&amp;subset=latin&amp;ver=1.8.7"
+        type="text/css" media="all">
+    <style id="primer-fonts-inline-css" type="text/css">
+        .site-title {
+            font-family: "Open Sans", sans-serif;
+        }
+
+        .main-navigation ul li a,
+        .main-navigation ul li a:visited,
+        button,
+        a.button,
+        a.fl-button,
+        input[type="button"],
+        input[type="reset"],
+        input[type="submit"] {
+            font-family: "Open Sans", sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        label,
+        legend,
+        table th,
+        dl dt,
+        .entry-title,
+        .widget-title {
+            font-family: "Open Sans", sans-serif;
+        }
+
+        body,
+        p,
+        ol li,
+        ul li,
+        dl dd,
+        .fl-callout-text {
+            font-family: "Open Sans", sans-serif;
+        }
+
+        blockquote,
+        .entry-meta,
+        .entry-footer,
+        .comment-list li .comment-meta .says,
+        .comment-list li .comment-metadata,
+        .comment-reply-link,
+        #respond .logged-in-as {
+            font-family: "Open Sans", sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" id="google-fonts-1-css"
+        href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=5.7.2"
+        type="text/css" media="all">
+    <script type="text/javascript" src="wp-includes/js/jquery/jquery.min.js"
+        id="jquery-core-js"></script>
+    <script type="text/javascript" src="wp-includes/js/jquery/jquery-migrate.min.js"
+        id="jquery-migrate-js"></script>
+    <link rel="https://api.w.org/" href="wp-json/">
+    <link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/156">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+        href="wp-includes/wlwmanifest.xml">
+    <meta name="generator" content="WordPress 5.7.2">
+    <link rel="canonical" href="">
+    <link rel="shortlink" href="">
+    <link rel="alternate" type="application/json+oembed"
+        href="wp-json/oembed/1.0/embed?url=http%3A%2F%2Fvisitcab.online%2F">
+    <link rel="alternate" type="text/xml+oembed"
+        href="wp-json/oembed/1.0/embed?url=http%3A%2F%2Fvisitcab.online%2F&amp;format=xml">
+    <style type="text/css">
+        .recentcomments a {
+            display: inline !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+    </style>
+    <style type="text/css">
+        .site-title a,
+        .site-title a:visited {
+            color: ffffff;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+</head>
+
+<body
+    class="home page-template page-template-elementor_canvas page page-id-156 custom-header-image layout-one-column-wide elementor-default elementor-template-canvas elementor-kit-418 elementor-page elementor-page-156 e--ua-blink e--ua-chrome e--ua-webkit"
+    data-elementor-device-mode="mobile">
+    <div data-elementor-type="wp-page" data-elementor-id="156" class="elementor elementor-156"
+        data-elementor-settings="[]">
+        <div class="elementor-inner">
+            <div class="elementor-section-wrap">
+                <section
+                    class="elementor-section elementor-top-section elementor-element elementor-element-df03786 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    data-id="df03786" data-element_type="section">
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-row">
+                            <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-1f73f6b"
+                                data-id="1f73f6b" data-element_type="column">
+                                <div class="elementor-column-wrap elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div class="elementor-element elementor-element-94a4385 elementor-widget elementor-widget-heading"
+                                            data-id="94a4385" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h2 class="elementor-heading-title elementor-size-default">Visitcab</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-1899e9b"
+                                data-id="1899e9b" data-element_type="column">
+                                <div class="elementor-column-wrap">
+                                    <div class="elementor-widget-wrap">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a7be394"
+                                data-id="a7be394" data-element_type="column">
+                                <div class="elementor-column-wrap elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div class="elementor-element elementor-element-4db762f elementor-widget elementor-widget-heading"
+                                            data-id="4db762f" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h2 class="elementor-heading-title elementor-size-default">Call- +1
+                                                    (818) 478-8861
+
+
+
+
+
+
+
+
+                                                </h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section
+                    class="elementor-section elementor-top-section elementor-element elementor-element-233040d elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    data-id="233040d" data-element_type="section">
+                    <div class="elementor-background-overlay"></div>
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-row">
+                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-06abb18"
+                                data-id="06abb18" data-element_type="column">
+                                <div class="elementor-column-wrap elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div class="elementor-element elementor-element-9e3a2b7 elementor-widget elementor-widget-heading"
+                                            data-id="9e3a2b7" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h2 class="elementor-heading-title elementor-size-default">Our Mission
+                                                    &amp; Commitment to Quality Service</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section
+                    class="elementor-section elementor-top-section elementor-element elementor-element-b098742 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    data-id="b098742" data-element_type="section">
+                    <div class="elementor-background-overlay"></div>
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-row">
+                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6745321"
+                                data-id="6745321" data-element_type="column">
+                                <div class="elementor-column-wrap elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div class="elementor-element elementor-element-acf2f8f elementor-widget elementor-widget-text-editor"
+                                            data-id="acf2f8f" data-element_type="widget"
+                                            data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-text-editor elementor-clearfix">
+                                                    <p>Our central goal is to serve our neighborhood occupants and association with protected, polite, transportation — with nothing a decent arrangement significantly less than the mindful extraordinary we'd choose our extremely confidential family people to get. We are devoted to bestowing reliable, current and climate amicable transportation options in contrast to the local area, business venture accomplices, and specialists organizations we are favored to serve.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section
+                    class="elementor-section elementor-top-section elementor-element elementor-element-86719bc elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    data-id="86719bc" data-element_type="section"
+                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-row">
+                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d8ff22c"
+                                data-id="d8ff22c" data-element_type="column">
+                                <div class="elementor-column-wrap elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div class="elementor-element elementor-element-6788927 elementor-widget elementor-widget-heading"
+                                            data-id="6788927" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h2 class="elementor-heading-title elementor-size-default">Our Core
+                                                    Values</h2>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-03a51cf elementor-widget elementor-widget-text-editor"
+                                            data-id="03a51cf" data-element_type="widget"
+                                            data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-text-editor elementor-clearfix">
+                                                    <p>Center around Safety two Focus on Quality Service two//honorable two Conduct all collaborations, respect and empathy
+                                                    </p>
+                                                    <p>Taxi two for excursions of any distance, going from a speedy area break extensive ride. As a full-administration taxi organization, all decisions are close by 24 hours every day, 365 days per year, for rides on-request or planned for advance.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-03c16c7 elementor-widget elementor-widget-heading"
+                                            data-id="03c16c7" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h2 class="elementor-heading-title elementor-size-default">Services
+                                                    Include
+                                                </h2>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-c02207b elementor-widget elementor-widget-text-editor"
+                                            data-id="c02207b" data-element_type="widget"
+                                            data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-text-editor elementor-clearfix">
+                                                    <p style="text-align: center;">Individual &amp; Professional Taxi Service//two Airport Transportation Package Delivery two//two Corporate Accounts
+                                                       <br> Also, Much More…
+                                                        </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section
+                    class="elementor-section elementor-top-section elementor-element elementor-element-7bbffe9 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    data-id="7bbffe9" data-element_type="section"
+                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-row">
+                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c39c877"
+                                data-id="c39c877" data-element_type="column">
+                                <div class="elementor-column-wrap elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div class="elementor-element elementor-element-778e959 elementor-widget elementor-widget-heading"
+                                            data-id="778e959" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h2 class="elementor-heading-title elementor-size-default">Choose Your
+                                                    Pickup Location
+                                                </h2>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-c6706cf elementor-widget elementor-widget-text-editor"
+                                            data-id="c6706cf" data-element_type="widget"
+                                            data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-text-editor elementor-clearfix">
+                                                    <div id="output-data-frame" class="">
+                                                        <div class="article_rewriter">
+                                                            <div id="ouput-content" class="article_rewriter_process"
+                                                                style="text-align: center;">VisitCab works for the size of all of Los Angeles County, which endorses you to select your choose out up area from some place nearby. Whether you are in the coronary heart of Los Angeles or taking stage in the focal points and hints of West Hollywood, our drivers make great that you have a reliable give of transportation prepared to you at your solicitation.</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section
+                    class="elementor-section elementor-top-section elementor-element elementor-element-8d2a619 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    data-id="8d2a619" data-element_type="section"
+                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-row">
+                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-72042f1"
+                                data-id="72042f1" data-element_type="column">
+                                <div class="elementor-column-wrap elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div class="elementor-element elementor-element-fb55250 elementor-widget elementor-widget-heading"
+                                            data-id="fb55250" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h2 class="elementor-heading-title elementor-size-default">OUR SERVICES
+                                                </h2>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-506fc14 elementor-widget elementor-widget-text-editor"
+                                            data-id="506fc14" data-element_type="widget"
+                                            data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-text-editor elementor-clearfix">
+                                                    <p style="text-align: center;">We have Door to Door Services for
+                                                        for<br>Bundle Pick-up and conveyance<br>Senior Citizens Transportation
+                                                        Transportation<br>Between City Programs Transportation<br>Unique Event Transportation<br>All primary Airport Transportations
+                                                        Transportations<br>Exceptional Needs Transportation</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section
+                    class="elementor-section elementor-top-section elementor-element elementor-element-1b0fe8b elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    data-id="1b0fe8b" data-element_type="section"
+                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-row">
+                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b7ed1f8"
+                                data-id="b7ed1f8" data-element_type="column">
+                                <div class="elementor-column-wrap elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div class="elementor-element elementor-element-d4e4f6f elementor-widget elementor-widget-text-editor"
+                                            data-id="d4e4f6f" data-element_type="widget"
+                                            data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-text-editor elementor-clearfix">
+                                                    <p style="text-align: center;">With every single and each and every single security property we add and each and every popular in our Community Guidelines we maintain, we're given to safeguarding you on the road ahead. Learn more noteworthy about our Community Guidelines with the guide of calling us.</p>
+                                                    <p style="text-align: center;">Book Your Ride</p>
+                                                    <p style="text-align: center;">VisitCab for excursions of any distance, going from a quick nearby ride. As a full-administration taxi organization, all contributions are reachable 24 hours every day, 365 days per year, for rides on-request or planned for advance.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section
+                    class="elementor-section elementor-top-section elementor-element elementor-element-e3493c8 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    data-id="e3493c8" data-element_type="section"
+                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-row">
+                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-005175e"
+                                data-id="005175e" data-element_type="column">
+                                <div class="elementor-column-wrap elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div class="elementor-element elementor-element-a15ae48 elementor-widget elementor-widget-heading"
+                                            data-id="a15ae48" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h2 class="elementor-heading-title elementor-size-default">OUR VISION
+                                                </h2>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-e0856d4 elementor-widget elementor-widget-text-editor"
+                                            data-id="e0856d4" data-element_type="widget"
+                                            data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-text-editor elementor-clearfix">
+                                                    <p style="text-align: center;">To investigate the ninety 5 years of closed by utilizing industry-driving trip to continue as the relied upon organization of esteemed transportation choices in each neighborhood we serve.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section
+                    class="elementor-section elementor-top-section elementor-element elementor-element-8054f94 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    data-id="8054f94" data-element_type="section"
+                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-row">
+                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9de505d"
+                                data-id="9de505d" data-element_type="column">
+                                <div class="elementor-column-wrap elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div class="elementor-element elementor-element-6ebc80e elementor-widget elementor-widget-heading"
+                                            data-id="6ebc80e" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h3 class="elementor-heading-title elementor-size-default">Refund and
+                                                    Cancellation</h3>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-436d1e6 elementor-widget elementor-widget-text-editor"
+                                            data-id="436d1e6" data-element_type="widget"
+                                            data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-text-editor elementor-clearfix">
+                                                    <p style="text-align: center;">Voyager is qualified to counterbalance the time at whatever point sooner than voyaging. In the event that voyaged 1/2 way or part of the way also discount will never again be given.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section
+                    class="elementor-section elementor-top-section elementor-element elementor-element-84bfc21 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    data-id="84bfc21" data-element_type="section"
+                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-row">
+                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-98aa336"
+                                data-id="98aa336" data-element_type="column">
+                                <div class="elementor-column-wrap elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div class="elementor-element elementor-element-802a893 elementor-widget elementor-widget-heading"
+                                            data-id="802a893" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h2 class="elementor-heading-title elementor-size-default">Contact Us
+                                                </h2>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-2d52023 elementor-widget elementor-widget-heading"
+                                            data-id="2d52023" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h2 class="elementor-heading-title elementor-size-default">+1 (818)
+                                                    478-8861
+
+
+
+
+
+
+                                                </h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section
+                    class="elementor-section elementor-top-section elementor-element elementor-element-f2734bb elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    data-id="f2734bb" data-element_type="section"
+                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-row">
+                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-fbda28e"
+                                data-id="fbda28e" data-element_type="column">
+                                <div class="elementor-column-wrap elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div class="elementor-element elementor-element-f63c7a1 elementor-widget elementor-widget-text-editor"
+                                            data-id="f63c7a1" data-element_type="widget"
+                                            data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-text-editor elementor-clearfix">
+                                                    <p style="text-align: left;"><strong>VisitCab I All Rights
+                                                            Reserved.</strong></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript"
+        src="wp-content/plugins/coblocks/dist/js/coblocks-animation.js"
+        id="coblocks-animation-js"></script>
+    <script type="text/javascript"
+        src="wp-content/themes/primer/assets/js/navigation.min.js"
+        id="primer-navigation-js"></script>
+    <script type="text/javascript" src="wp-includes/js/wp-embed.min.js"
+        id="wp-embed-js"></script>
+    <script type="text/javascript"
+        src="wp-content/plugins/elementor/assets/js/webpack.runtime.min.js"
+        id="elementor-webpack-runtime-js"></script>
+    <script type="text/javascript"
+        src="wp-content/plugins/elementor/assets/js/frontend-modules.min.js"
+        id="elementor-frontend-modules-js"></script>
+    <script type="text/javascript"
+        src="wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js"
+        id="elementor-waypoints-js"></script>
+    <script type="text/javascript" src="wp-includes/js/jquery/ui/core.min.js"
+        id="jquery-ui-core-js"></script>
+    <script type="text/javascript"
+        src="wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js"
+        id="swiper-js"></script>
+    <script type="text/javascript"
+        src="wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js"
+        id="share-link-js"></script>
+    <script type="text/javascript"
+        src="wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js"
+        id="elementor-dialog-js"></script>
+    <script type="text/javascript" id="elementor-frontend-js-before">
+        var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile", "value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Extra", "value": 880, "direction": "max", "is_enabled": false }, "tablet": { "label": "Tablet", "value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Extra", "value": 1365, "direction": "max", "is_enabled": false }, "laptop": { "label": "Laptop", "value": 1620, "direction": "max", "is_enabled": false }, "widescreen": { "label": "Widescreen", "value": 2400, "direction": "min", "is_enabled": false } } }, "version": "3.2.5", "is_static": false, "experimentalFeatures": [], "urls": { "assets": "http:\/\/visitcab.online\/wp-content\/plugins\/elementor\/assets\/" }, "settings": { "page": [], "editorPreferences": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_tablet"], "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 156, "title": "VisitCab%20%E2%80%93%20A%20Best%20Cab%20Service", "excerpt": "", "featuredImage": false } };
+    </script>
+    <script type="text/javascript"
+        src="wp-content/plugins/elementor/assets/js/frontend.min.js"
+        id="elementor-frontend-js"></script><span id="elementor-device-mode" class="elementor-screen-only"></span>
+    <script type="text/javascript"
+        src="wp-content/plugins/elementor/assets/js/preloaded-modules.min.js"
+        id="preloaded-modules-js"></script>
+    <script>
+        /* IE11 skip link focus fix */
+        /(trident|msie)/i.test(navigator.userAgent) && document.getElementById && window.addEventListener && window.addEventListener("hashchange", function () { var t, e = location.hash.substring(1); /^[A-z0-9_-]+$/.test(e) && (t = document.getElementById(e)) && (/^(?:a|select|input|button|textarea)$/i.test(t.tagName) || (t.tabIndex = -1), t.focus()) }, !1);
+    </script>
+
+
+</body>
+
+</html>
